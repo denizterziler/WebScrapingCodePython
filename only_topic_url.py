@@ -1,11 +1,7 @@
 """
-First, use extract_topic.py to extract specific URL pieces along with location and topic information.
-Alternatively, if this information has already been provided, use the existing one.
-Afterward, copy the path of the text file and use it in line 79, where the file is opened and read.
--*-*-
-Öncelikle, extract_topic.py kullanarak belirli URL parçalarını ve konum bilgisi ile ilgili bilgileri çıkartın.
-Bu bilgiler zaten sağlanmışsa mevcut olanı kullanın.
-Sonrasında metin dosyasının yolunu kopyalayın ve 79. satırda, dosyanın açıldığı ve okunduğu yerde kullanın.
+parsed_portion.txt kullan!!!
+satır 75
+-*-her bir haber url için topicleri eşleştirir.-*-
 """
 
 import requests
@@ -76,7 +72,7 @@ def url_topic():
     cards = []
     topics = []
 
-    with open("/Users/denizterziler/PycharmProjects/denemewebscrape/deneme.txt", "r") as file:
+    with open("/Users/denizterziler/PycharmProjects/WebScrapingCodePython/parsed_portion.txt", "r") as file:
         for topic_tag in file:
             topics.append(topic_tag.strip())
 
@@ -98,7 +94,7 @@ def url_topic():
 
     data = pd.DataFrame(cards,
                         columns=['Subtitle', 'Title', 'Date', 'URL', 'Location_Tag', 'Topic_Tag'])
-    data.to_csv('data_deneme.csv')
+    data.to_csv('data_set_first.csv')
 
 
 if __name__ == '__main__':

@@ -145,7 +145,7 @@ def next_page_exists(url):
 
 
 def content_topic():
-    existing_data = pd.read_csv('/Users/denizterziler/PycharmProjects/denemewebscrape/data_african_union.txt')
+    existing_data = pd.read_csv('/Users/denizterziler/PycharmProjects/WebScrapingCodePython/data_set_first.csv')
 
     unique_urls = existing_data['URL'].unique()
 
@@ -171,7 +171,7 @@ def content_topic():
 
     merged_data.columns = final_columns
 
-    merged_data.to_csv('data_set_updated.csv', index=False)
+    merged_data.to_csv('/Users/denizterziler/PycharmProjects/WebScrapingCodePython/data_set_final.csv', index=False)
 
 
 if __name__ == '__main__':
