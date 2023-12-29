@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd5c6651-62fb-4f3f-a143-6bec3be3a0ff" name="Changes" comment="yeni methodlar geliştirildi">
+    <list default="true" id="dd5c6651-62fb-4f3f-a143-6bec3be3a0ff" name="Changes" comment="son version 20.10.23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content_topic.py" beforeDir="false" afterPath="$PROJECT_DIR$/content_topic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_topic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_set_final.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_set_final.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_set_first.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_set_first.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_every_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_every_country.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/only_topic_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/only_topic_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsed_portion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parsed_portion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,11 +152,26 @@
       <option name="project" value="LOCAL" />
       <updated>1697743930829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="son version 20.10.23">
+      <created>1697754970281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697754970281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="son version 20.10.23">
+      <created>1697754976141</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697754976141</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yeni methodlar geliştirildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="yeni methodlar geliştirildi" />
+    <MESSAGE value="son version 20.10.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="son version 20.10.23" />
   </component>
 </project>

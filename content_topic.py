@@ -145,7 +145,7 @@ def next_page_exists(url):
 
 
 def content_topic():
-    existing_data = pd.read_csv('/Users/denizterziler/PycharmProjects/WebScrapingCodePython/data_set_first.csv')
+    existing_data = pd.read_csv('/Users/denizterziler/PycharmProjects/WebScrapingCodePython/data_set_yeni.csv')
 
     unique_urls = existing_data['URL'].unique()
 

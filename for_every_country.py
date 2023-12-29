@@ -41,7 +41,8 @@ def for_every_country(url):
 if __name__ == '__main__':
     with open("location_url.txt", "r") as url_file:
         urls = url_file.readlines()
-
+    # with open("location_deneme.txt", "r") as url_file:
+    #     urls = url_file.readlines()
     for url in urls:
         url = "https://www.eeas.europa.eu/eeas/press-material_en?fulltext=&created_from=2019-01-01&created_to=2023-07-01&f%5B0%5D=press_site" + url.strip()
         print(url)
